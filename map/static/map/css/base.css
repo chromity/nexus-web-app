@@ -1,0 +1,33 @@
+#map {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#time {
+	font-size: 100px;
+	font-weight: 600;
+	color: black;
+	width: 600px;
+	text-align: center;
+}
+
+.leaflet-popup-content {
+    font-size: 20px;
+}
+
+.marquee {
+  overflow: hidden;
+  font-size: 35px;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 0;
+}
+
+.leaflet-popup-tip-container {
+}
