@@ -22,7 +22,7 @@ def sms(request):
 
     message = client.messages \
         .create(
-        body='This is the ship that made the Kessel Run in fourteen parsecs?',
+        body='Hello, This is LRMC?',
         from_='+18508058901',
         to='+639338559633'
     )
